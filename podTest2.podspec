@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'podTest2/Classes/**/*'
-  s.source_files = 'podTest2/components/**/*'
+  #s.source_files = 'podTest2/components/**/*'
   
   # s.resource_bundles = {
   #   'podTest2' => ['podTest2/Assets/*.png']
