@@ -1,0 +1,22 @@
+{
+  "name": "podTest2",
+  "version": "0.1.0",
+  "summary": "A short description of podTest2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HelioJunior/podTest2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HelioJunior": "helio.engenharia@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/HelioJunior/podTest2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podTest2/Classes/**/*"
+}

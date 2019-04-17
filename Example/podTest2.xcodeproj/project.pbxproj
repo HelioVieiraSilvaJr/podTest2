@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		2799C0248305D79CDE04E094 /* Pods-podTest2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTest2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-podTest2_Tests/Pods-podTest2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EF950BCD7DC5A015D91CED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5EF950BCD7DC5A015D91CED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* podTest2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podTest2_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		691724E2FF6DEE70AB3D1D69 /* Pods_podTest2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTest2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1E93F9583E67694B9ECD1AF /* podTest2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = podTest2.podspec; path = ../podTest2.podspec; sourceTree = "<group>"; };
-		CF310A19CC81C45DAC615F37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1E93F9583E67694B9ECD1AF /* podTest2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = podTest2.podspec; path = ../podTest2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF310A19CC81C45DAC615F37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EC38FB32F3903699517D742F /* Pods-podTest2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTest2_Tests.release.xcconfig"; path = "Target Support Files/Pods-podTest2_Tests/Pods-podTest2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +87,6 @@
 				2799C0248305D79CDE04E094 /* Pods-podTest2_Tests.debug.xcconfig */,
 				EC38FB32F3903699517D742F /* Pods-podTest2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
