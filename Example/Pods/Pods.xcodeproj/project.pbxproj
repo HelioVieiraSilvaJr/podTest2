@@ -14,8 +14,8 @@
 		7253014D1F14E45B1FC1C051A890E17E /* podTest2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E683379075F03FD87DDD0EB669C2B49 /* podTest2-dummy.m */; };
 		BD7280552267AF7000453B98 /* InfoPod2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7280542267AF7000453B98 /* InfoPod2.swift */; };
 		BD7280562267AF7000453B98 /* InfoPod2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7280542267AF7000453B98 /* InfoPod2.swift */; };
-		BD7280592267B29600453B98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7280582267B29600453B98 /* CustomButton.swift */; };
-		BD72805A2267B29600453B98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7280582267B29600453B98 /* CustomButton.swift */; };
+		BD72805E22691AC400453B98 /* CustomButtonPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72805D22691AC400453B98 /* CustomButtonPod.swift */; };
+		BD72805F22691AC400453B98 /* CustomButtonPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72805D22691AC400453B98 /* CustomButtonPod.swift */; };
 		E12C169270EA4AB3015D2AE1EA0DE49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		FD5CCBF130FD9AE1E344CE6C8DB36AC9 /* podTest2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE724B28A68760D738C7E0B5B98A6B41 /* podTest2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 		B8FCBFCC24229425849E158B55B31106 /* Pods-podTest2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTest2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC5272242F8B4BC847AF61CBAE732CD2 /* Pods-podTest2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTest2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD7280542267AF7000453B98 /* InfoPod2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoPod2.swift; path = podTest2/Classes/InfoPod2.swift; sourceTree = "<group>"; };
-		BD7280582267B29600453B98 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BD72805D22691AC400453B98 /* CustomButtonPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonPod.swift; sourceTree = "<group>"; };
 		C1B2145D5E80C729437CB29648451655 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C97F7EACF18D31FFD7923DAFFAE2D6A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -146,7 +146,7 @@
 		BD7280572267B29600453B98 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				BD7280582267B29600453B98 /* CustomButton.swift */,
+				BD72805D22691AC400453B98 /* CustomButtonPod.swift */,
 			);
 			name = components;
 			path = podTest2/Classes/components;
@@ -309,7 +309,7 @@
 			files = (
 				BD7280552267AF7000453B98 /* InfoPod2.swift in Sources */,
 				4A5AF8D348247713ECFF002A3A612183 /* Pods-podTest2_Tests-dummy.m in Sources */,
-				BD7280592267B29600453B98 /* CustomButton.swift in Sources */,
+				BD72805E22691AC400453B98 /* CustomButtonPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,9 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD72805A2267B29600453B98 /* CustomButton.swift in Sources */,
 				7253014D1F14E45B1FC1C051A890E17E /* podTest2-dummy.m in Sources */,
 				BD7280562267AF7000453B98 /* InfoPod2.swift in Sources */,
+				BD72805F22691AC400453B98 /* CustomButtonPod.swift in Sources */,
 				1696517666D0CEE8E95468E221CB47EB /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
