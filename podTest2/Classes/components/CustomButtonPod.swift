@@ -52,7 +52,14 @@ public class CustomButtonPod: UIButton {
     
     @objc
     private func handlerButton() {
+        let text = ClassePrivada().getText(number: <#T##Int#>)
         actionButton()
+    }
+    
+    
+    public func returnTextFromClassPrivate(number: Int) -> String {
+        let text = ClassePrivada().getText(number: number)
+        return text
     }
     
     
