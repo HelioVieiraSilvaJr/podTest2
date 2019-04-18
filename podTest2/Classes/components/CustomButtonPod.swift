@@ -8,7 +8,7 @@
 import Foundation
 
 @IBDesignable
-class CustomButtonPod: UIButton {
+public class CustomButtonPod: UIButton {
     
     public var actionButton: () -> () = {}
     
@@ -31,21 +31,21 @@ class CustomButtonPod: UIButton {
     }
     
     @IBInspectable
-    var setColor: UIColor! {
+    public var setColor: UIColor! {
         didSet {
             backgroundColor = setColor
         }
     }
     
     @IBInspectable
-    var titleButton: String! {
+    public var titleButton: String! {
         didSet {
             setTitle(titleButton, for: .normal)
         }
     }
     
     
-    func shouldAction(_ action: @escaping () -> ()) {
+    public func shouldAction(_ action: @escaping () -> ()) {
         actionButton = action
     }
     
@@ -56,7 +56,7 @@ class CustomButtonPod: UIButton {
     }
     
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         
         let action = UITapGestureRecognizer(target: self, action: #selector(handlerButton))
